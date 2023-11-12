@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { BsArrowRight, BsInstagram } from 'react-icons/bs'
+import { TiSocialTwitterCircular, TiSocialFacebookCircular } from 'react-icons/ti'
 
 export default function Banner() {
   return (
@@ -205,9 +207,14 @@ export default function Banner() {
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit.
         </p>
-        <button className="bg-[#33D3D4] text-white p-3 rounded-full my-2">
-          Get Started{" "}
+        <button className="bg-[#33D3D4] text-white p-3 rounded-full my-2 flex items-center">
+          Get Started <BsArrowRight size={28} className="ml-2" />
         </button>
+        <div className="flex items-center">
+          <TiSocialTwitterCircular size={28} />
+          <TiSocialFacebookCircular size={28} className="mx-2" />
+          <BsInstagram size={22} />
+        </div>
       </div>
 
       <Image

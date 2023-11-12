@@ -1,5 +1,10 @@
 import Image from "next/image";
 import React from "react";
+import { FaListAlt } from 'react-icons/fa'
+import { FaPeopleGroup } from 'react-icons/fa6'
+import { BsFillAwardFill } from 'react-icons/bs'
+import { SiGooglemeet } from 'react-icons/si'
+
 
 export default function Choose() {
   return (
@@ -24,17 +29,17 @@ export default function Choose() {
           />
         </div>
         <div>
-          <h4 className="text-xl">Attention to Details</h4>
-          <h5 className="text-xl mt-2">A Plan for Success</h5>
+          <h4 className="text-xl flex items-center">  <FaListAlt className="mr-2" size={24} color="#858585" /> Attention to Details</h4>
+          <h5 className="text-xl mt-2 flex items-center"> <BsFillAwardFill className="mr-2" size={28} color="#858585" /> A Plan for Success</h5>
           <p className="mt-1 text-sm">
             You want results. We have found that the best way to get them is
             with up front research – of your company, competitors, target market
             and customer psychographics. Only after we fully understand you and
             your customers, do we recommend a plan of attack.
           </p>
-          <h5 className="text-xl mt-2">Experts Only</h5>
-          <h5 className="text-xl mt-2">Meeting Deadlines</h5>
-          <h5 className="text-xl mt-2">Award-Winning</h5>
+          <h5 className="text-lg mt-2 text-[#484848] flex items-center"> <FaPeopleGroup className="mr-2" size={25} color="#858585" />  Experts Only</h5>
+          <h5 className="text-lg mt-2 text-[#484848] flex items-center"> <SiGooglemeet className="mr-2" size={24} color="#858585" /> Meeting Deadlines</h5>
+          <h5 className="text-lg mt-2 text-[#484848] flex items-center"><BsFillAwardFill className="mr-2" size={28} color="#858585" /> Award-Winning</h5>
         </div>
       </div>
     </div>

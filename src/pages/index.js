@@ -31,7 +31,7 @@ export default function Home() {
       <Methodology />
       <Feedback />
       <Features />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Clients />
       <ContactForm />
       <Footer />

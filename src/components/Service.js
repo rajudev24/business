@@ -3,7 +3,7 @@ export default function Service() {
   return (
     <div className="bg-slate-800 text-white pb-20">
       <div className="max-sm:p-4 p-20 md:flex justify-between items-center">
-        <h1 className="text-5xl font-bold">Our Services</h1>
+        <h1 className="text-[48px] font-bold">Our Services</h1>
         <p className="md:w-1/3">Lorem Ipsum is simply dummy text of the printing and typesetting
           Our Services industry. Lorem Ipsum has been the</p>
       </div>
@@ -18,7 +18,7 @@ export default function Service() {
           <span className="bg-white text-black text-3xl font-bold p-8 rounded-lg flex items-center">Next.js Development </span>
           <span className="bg-white text-black text-3xl font-bold p-8  rounded-lg flex items-center">Custom website Development </span>
         </div>
-        <div className="bg-[#1e4eeb] text-3xl font-extrabold p-8 rounded-lg md:ml-4 text-center md:w-80 flex items-center max-sm: my-4">
+        <div className="bg-[#1e4eeb] text-3xl font-extrabold p-8 rounded-lg md:ml-4 text-center md:w-80 flex items-center max-sm:my-4 ">
           <h2> Customer Relationship Management Software </h2>
         </div>
       </div>

@@ -11,8 +11,8 @@ export default function Methodology() {
     const description = 'This is a description.';
     return (
         <div className='m-20 max-sm:m-4'>
-            <h1 className='text-6xl max-sm:text-4xl font-bold text-center'>Methodology</h1>
-            <p className='m-auto text-center my-4 md:w-2/4'>SeaWire Web is a wireframe kit that has more than 15 popular categories and
+            <h1 className='text-[32px] max-sm:text-4xl font-bold text-center'>Methodology</h1>
+            <p className='text-base m-auto text-center my-4 md:w-2/4'>SeaWire Web is a wireframe kit that has more than 15 popular categories and
                 more than 200 screens from each category.</p>
 
             <div className='my-12 '>
@@ -42,13 +42,42 @@ export default function Methodology() {
             </div>
 
             <div className='flex justify-center items-center'>
-                <Image
-                    src={"/img/service.png"}
-                    width={550}
-                    height={400}
-                    alt="img"
-                    loading='lazy'
-                />
+                {
+                    current === 0 ? <Image
+                        src={"/img/service.png"}
+                        width={550}
+                        height={400}
+                        alt="img"
+                        loading='lazy'
+                    /> : ''
+                }
+                {
+                    current === 1 ? <Image
+                        src={"/img/banner-1.png"}
+                        width={550}
+                        height={400}
+                        alt="img"
+                        loading='lazy'
+                    /> : ''
+                }
+                {
+                    current === 2 ? <Image
+                        src={"/img/banner.png"}
+                        width={550}
+                        height={400}
+                        alt="img"
+                        loading='lazy'
+                    /> : ''
+                }
+                {
+                    current === 3 ? <Image
+                        src={"/img/Vector 1.png"}
+                        width={550}
+                        height={400}
+                        alt="img"
+                        loading='lazy'
+                    /> : ''
+                }
             </div>
         </div>
     )

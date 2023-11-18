@@ -5,9 +5,9 @@ import { AiOutlineAppstore } from 'react-icons/ai'
 
 export default function MissionVission() {
     return (
-        <div className=' m-20 max-sm:m-4'>
+        <div className=' m-20 max-sm:m-4 py-20'>
             <div className='md:w-1/3'>
-                <h1 className='text-5xl max-sm:text-4xl font-bold'>Misson & Vission</h1>
+                <h1 className='text-[48px] max-sm:text-4xl font-bold'>Misson & Vission</h1>
                 <p className='text-base my-4'>Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry dummy text ever since.</p>
             </div>
@@ -17,7 +17,7 @@ export default function MissionVission() {
                         color: '#33D3D4',
                         marginTop: '-15px'
                     }} />
-                    <h3 className="text-xl font-semibold my-2">Web Development</h3>
+                    <h3 className="text-2xl font-semibold my-2">Web Development</h3>
                     <p className="text-xs my-2">
                         Lorem Ipsum is simply dummy text of the
                         printing and typesetting industry. Lorem Ipsum
@@ -31,7 +31,7 @@ export default function MissionVission() {
                         color: '#33D3D4',
                         marginTop: '-15px'
                     }} />
-                    <h3 className="text-xl font-semibold my-2">App Development</h3>
+                    <h3 className="text-2xl font-semibold my-2">App Development</h3>
                     <p className="text-xs my-2">
                         Lorem Ipsum is simply dummy text of the
                         printing and typesetting industry. Lorem Ipsum
@@ -45,7 +45,7 @@ export default function MissionVission() {
                         color: '#33D3D4',
                         marginTop: '-15px'
                     }} />
-                    <h3 className="text-xl font-semibold my-2">AR/VR Development</h3>
+                    <h3 className="text-2xl font-semibold my-2">AR/VR Development</h3>
                     <p className="text-xs my-2">
                         Lorem Ipsum is simply dummy text of the
                         printing and typesetting industry. Lorem Ipsum

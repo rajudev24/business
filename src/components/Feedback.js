@@ -13,9 +13,9 @@ const contentStyle = {
 export default function Feedback() {
   return (
     <div className="bg-slate-800 text-white">
-      <div className="md:flex justify-between  items-center max-sm:mx-4 md:mx-20 mt-5 mb-10 py-32">
+      <div className="md:flex justify-between  items-center max-sm:mx-4 md:mx-32 mt-5 mb-10 py-32">
 
-        <div className="md:w-2/4">
+        <div className="md:w-2/5 ">
           <Carousel autoplay>
             <div style={contentStyle} className="w-2/3 bg-slate-100 rounded-md shadow-xl p-12 text-black">
               <div className="flex items-center">

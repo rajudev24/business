@@ -1,96 +1,27 @@
-import React from "react";
-import { FaSpotify, FaSlack, FaDropbox } from 'react-icons/fa'
-import { BsArrowRight, BsFillRecordCircleFill } from 'react-icons/bs'
-import { CgWebsite } from 'react-icons/cg'
-import { AiOutlineAppstore } from 'react-icons/ai'
-import { SiBlockchaindotcom } from 'react-icons/si'
-import Image from "next/image";
 
 export default function Service() {
   return (
-    <div>
-      <p className=" flex justify-center mt-10">Trusted by 4,000+ companies</p>
-
-      <div class="flex justify-around items-center my-4">
-        <h3 class="text-3xl font-semibold flex  items-center"> <FaSpotify className="mr-2" /> Spotify</h3>
-        <h3 class="text-3xl font-semibold flex  items-center"> <FaSlack className="mr-2" /> Slack</h3>
-        <h3 class="text-3xl font-semibold flex  items-center"><FaDropbox className="mr-2" /> Dropbox</h3>
-        <h3 class="text-3xl font-semibold">Zoom</h3>
+    <div className="bg-slate-800 text-white pb-20">
+      <div className="max-sm:p-4 p-20 md:flex justify-between items-center">
+        <h1 className="text-5xl font-bold">Our Services</h1>
+        <p className="md:w-1/3">Lorem Ipsum is simply dummy text of the printing and typesetting
+          Our Services industry. Lorem Ipsum has been the</p>
       </div>
 
-      <div className="grid md:grid-cols-4 gap-4 max-sm:mx-10 mx-20  ">
-        <div className="rounded-lg hover:shadow-lg duration-500 bg-slate-100 px-3 py-8">
-          <CgWebsite size={28} style={{
-            color: '#33D3D4',
-            marginTop: '-15px'
-          }} />
-          <h3 className="text-xl font-medium">Web Development</h3>
-          <p className="text-xs my-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-            sequi.
-          </p>
-          <button className="text-blue-500 text-sm flex items-center">Learn More <BsArrowRight
-            size={24} className="ml-2" /> </button>
-        </div>
-        <div className="rounded-lg hover:shadow-lg duration-500 bg-slate-100 px-3 py-8">
-          <AiOutlineAppstore size={28} style={{
-            color: '#33D3D4',
-            marginTop: '-15px'
-          }} />
-          <h3 className="text-xl font-medium">App Development</h3>
-          <p className="text-xs my-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-            sequi.
-          </p>
-          <button className="text-blue-500 text-sm flex items-center">Learn More <BsArrowRight
-            size={24} className="ml-2" /> </button>
-        </div>
-        <div className="rounded-lg hover:shadow-lg duration-500 bg-slate-100 px-3 py-8">
-          <BsFillRecordCircleFill size={28} style={{
-            color: '#33D3D4',
-            marginTop: '-15px'
-          }} />
-          <h3 className="text-xl font-medium">AR/VR Development</h3>
-          <p className="text-xs my-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-            sequi.
-          </p>
-          <button className="text-blue-500 text-sm flex items-center">Learn More <BsArrowRight
-            size={24} className="ml-2" /> </button>
-        </div>
-        <div className="rounded-lg hover:shadow-lg duration-500 bg-slate-100 px-3 py-8">
-          <SiBlockchaindotcom size={28} style={{
-            color: '#33D3D4',
-            marginTop: '-15px'
-          }} />
 
-          <h3 className="text-xl font-medium">BlockChain Development</h3>
-          <p className="text-xs my-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-            sequi.
-          </p>
-          <button className="text-blue-500 text-sm flex items-center">Learn More <BsArrowRight
-            size={24} className="ml-2" /> </button>
+      <div className="md:flex justify-between max-sm:mx-4 mx-20">
+        <div className="grid md:grid-cols-3 gap-4 text-center ">
+          <span className="bg-white text-black text-3xl font-bold p-8 rounded-lg flex items-center">Android Mobile Application </span>
+          <span className="bg-white text-black text-3xl font-bold p-8 rounded-lg flex items-center">iOS Mobile Application </span>
+          <span className="bg-white text-black text-3xl font-bold p-8 rounded-lg flex items-center">UI/UX Design </span>
+          <span className="bg-white text-black text-3xl font-bold p-8 rounded-lg flex items-center">React Native Development </span>
+          <span className="bg-white text-black text-3xl font-bold p-8 rounded-lg flex items-center">Next.js Development </span>
+          <span className="bg-white text-black text-3xl font-bold p-8  rounded-lg flex items-center">Custom website Development </span>
+        </div>
+        <div className="bg-[#1e4eeb] text-3xl font-extrabold p-8 rounded-lg md:ml-4 text-center md:w-80 flex items-center max-sm: my-4">
+          <h2> Customer Relationship Management Software </h2>
         </div>
       </div>
-
-      <div className=" text-center mt-20">
-        <h1 className=" md:text-3xl  font-semibold">
-          End-To-End Development Services
-        </h1>
-        <p className=" text-base mx-14 mt-7">
-          Sometimes, we need to check the time, wondering when our work or
-          meeting will finish, without <br /> getting caught by others.
-        </p>
-        <Image
-          src={"/img/service.png"}
-          alt="image"
-          width={400}
-          height={400}
-          loading="lazy"
-          className="mx-auto mt-4"
-        />
-      </div>
-    </div>
+    </div >
   );
 }

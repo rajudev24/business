@@ -31,7 +31,7 @@ export default function Banner() {
           width={400}
           height={400}
           loading="lazy"
-          className="absolute top-64 right-24 bg-slate-600 rounded-xl"
+          className="absolute top-72 right-24 bg-slate-600 rounded-xl"
         />
       </div>
     </div>

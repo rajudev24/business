@@ -5,7 +5,7 @@ export default function Header() {
     <div className="bg-slate-800 text-white p-4">
       <div className="flex justify-between max-sm:mx-8 mx-20 mt-4 ">
         <Image
-          src={"/img/logo.webp"}
+          src={"/img/logo.png"}
           alt="logo"
           width={80}
           height={60}
